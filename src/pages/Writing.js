@@ -1,12 +1,10 @@
 import React from 'react';
 
-function Writing() {
-  return (
-    <div>
-      <h2>Writing</h2>
-      <p>Welcome to the Writing page. Content coming soon!</p>
-    </div>
-  );
-}
+const Writing = () => (
+  <div>
+    <h2>My Writing</h2>
+    <p>Explore some of my written works and publications.</p>
+  </div>
+);
 
 export default Writing;

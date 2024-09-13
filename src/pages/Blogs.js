@@ -1,13 +1,15 @@
 import React from 'react';
 
-function Blogs() {
-
+const Blogs = () => {
   return (
-    <div>
-      <h2>Blogs</h2>
-
-    </div>
+        <h1 style={{
+          fontSize: '36px',
+          marginBottom: '20px'
+        }}>
+          BLOG
+        </h1>
   );
-}
+};
+
 
 export default Blogs;
