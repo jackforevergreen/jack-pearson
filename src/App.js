@@ -3,13 +3,21 @@ import React from 'react';
 function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
-      <h1>Welcome to My Personal Website</h1>
-      <p>
-        Hi there! I'm building this site to showcase my work and share my thoughts with the world.
-      </p>
-      <p>
-        Stay tuned for updates on my latest projects, blog posts, and more!
-      </p>
+      <h1>Welcome to my website!</h1>
+      <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}>
+        <div style={{ margin: '0 50px' }}>
+          <h3>Blogs</h3>
+        </div>
+        <div style={{ margin: '0 50px' }}>
+          <h3>About</h3>
+        </div>
+        <div style={{ margin: '0 50px' }}>
+          <h3>Projects</h3>
+        </div>
+        <div style={{ margin: '0 50px' }}>
+          <h3>Writing</h3>
+        </div>
+      </div>
     </div>
   );
 }
