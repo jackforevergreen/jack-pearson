@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import Projects from './pages/Project';
 import Writing from './pages/Writing';
 
-
 const App = () => {
   return (
     <Router>
@@ -17,20 +16,20 @@ const App = () => {
         flexDirection: 'column'
       }}>
         <header style={{
-          backgroundColor: '#f0f0f0',
+          backgroundColor: 'white',
           padding: '20px 0',
           textAlign: 'center'
         }}>
           <h1 style={{
-            fontSize: '36px',
+            fontSize: '24px',
             marginBottom: '20px'
           }}>
-            Welcome to my website!
+            Jack Pearson
           </h1>
           <nav style={{
             display: 'flex',
             justifyContent: 'center',
-            gap: '40px'
+            gap: '20px'
           }}>
             <Link to="/" style={linkStyle}>Home</Link>
             <Link to="/blogs" style={linkStyle}>Blogs</Link>
@@ -44,7 +43,8 @@ const App = () => {
           padding: '20px',
           display: 'flex',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'flex-start',
+          backgroundColor: '#f0f0f0'
         }}>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -60,7 +60,7 @@ const App = () => {
 };
 
 const linkStyle = {
-  fontSize: '20px',
+  fontSize: '16px',
   color: '#000',
   textDecoration: 'none'
 };
