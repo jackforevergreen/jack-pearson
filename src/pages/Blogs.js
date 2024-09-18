@@ -13,19 +13,29 @@ const Blogs = () => (
   <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
     <h2>My Blog</h2>
     <BlogPost 
-      title="Latest Developments in Sustainable Business"
-      date="September 15, 2024"
-      excerpt="In this post, I explore recent trends in sustainable business practices..."
+      title="New Personal Website!"
+      date="September 20, 2024"
+      excerpt="I made a new website! This is my 5th blog post. I hope you enjoy it."
     />
     <BlogPost 
-      title="The Intersection of Finance and Technology"
-      date="September 1, 2024"
-      excerpt="Fintech is revolutionizing the way we think about money. Here's how..."
+      title="Welcome to the Carbon-Calc site!"
+      date="January 14, 2024"
+      excerpt="Hello and welcome to my fourth blog! Thank you for your time. I hope to outline this new site as well as some updates since my last blog post."
     />
     <BlogPost 
-      title="My Journey in Web Development"
-      date="August 20, 2024"
+      title="Continuation of Our Carbon Calculator Journey"
+      date="January 8, 2024"
       excerpt="From my first 'Hello World' to building complex web applications..."
+    />
+    <BlogPost 
+      title="Progress Update on the Carbon Calculator"
+      date="December 24, 2023"
+      excerpt="Hello! This is my second blog post updating our progress on the carbon calculator."
+    />
+    <BlogPost 
+      title="Journey Begins with Carbon Calculator"
+      date="December 5, 2023"
+      excerpt="This blog post is an introduction to my journey in developing a carbon calculator and learning to code."
     />
   </div>
 );

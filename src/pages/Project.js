@@ -1,9 +1,10 @@
 import React from 'react';
 
 const ProjectCard = ({ title, description, link }) => (
-  <div style={{ border: '1px solid #ccc', borderRadius: '5px', padding: '15px', marginBottom: '20px' }}>
+  <div style={{ marginBottom: '20px', borderBottom: '1px solid #ccc', paddingBottom: '20px' }}>
     <h3>{title}</h3>
-    <p>{description}</p>
+    <p><small>{description}</small></p>
+    <p>{link}</p>
     <a href={link} target="_blank" rel="noopener noreferrer">Learn more</a>
   </div>
 );
@@ -16,7 +17,12 @@ const Projects = () => (
       description="A startup focused on fighting climate change through innovative sustainability solutions."
       link="https://www.forevergreen.earth"
     />
-    {/* Add more ProjectCard components for other projects */}
+    <ProjectCard 
+      title="Personal Website"
+      description="This website you're currently viewing, built to showcase my projects and skills."
+      link="#"
+    />
+    {/* Add more ProjectCard components for other projects as needed */}
   </div>
 );
 

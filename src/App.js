@@ -44,7 +44,7 @@ const App = () => {
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'flex-start',
-          backgroundColor: '#f0f0f0'
+          backgroundColor: 'white'
         }}>
           <Routes>
             <Route path="/" element={<Home />} />
