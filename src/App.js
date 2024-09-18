@@ -3,7 +3,7 @@ import { Link, Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import About from './pages/About';
 import Blogs from './pages/Blogs';
 import Home from './pages/Home';
-import Projects from './pages/Project';
+import Resume from './pages/Resume';
 import Writing from './pages/Writing';
 
 const App = () => {
@@ -34,7 +34,7 @@ const App = () => {
             <Link to="/" style={linkStyle}>Home</Link>
             <Link to="/blogs" style={linkStyle}>Blogs</Link>
             <Link to="/about" style={linkStyle}>About</Link>
-            <Link to="/projects" style={linkStyle}>Projects</Link>
+            <Link to="/resume" style={linkStyle}>Resume</Link>
             <Link to="/writing" style={linkStyle}>Writing</Link>
           </nav>
         </header>
@@ -50,7 +50,7 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/resume" element={<Resume />} />
             <Route path="/writing" element={<Writing />} />
           </Routes>
         </main>
